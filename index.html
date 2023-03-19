@@ -1,0 +1,142 @@
+
+<HTML>
+  <HEAD>
+    <title>Similar Language Translation Task - EMNLP 2021 Sixth Conference on Machine Translation</title>
+    <style> h3 { margin-top: 2em; } </style>
+  </HEAD>
+  <body>
+
+    <center>
+      <script src="title.js"></script>
+      <p><h2>Shared Task: Similar Language Translation</h2></p>
+      <script src="menu.js"></script>
+    </center>
+
+    <P>
+      <H3>UPDATES</H3>
+      <p>July 28, 2021 - Results released.  
+      <p>June 7, 2021 - French - Manding languages data available.
+      <p>May 17, 2021 - Dravidian and Romance languages data available.
+      <p>May 6, 2021 - Website released! 
+      
+        
+                
+<H3>TASK DESCRIPTION</H3>
+
+<p> Within the MT and NLP communities, English is by far the most resource-rich language. MT systems are most often trained to translate texts from and to English or they use English as a pivot language to translate between resource-poorer languages. The interest in English is reflected, for example, in the WMT translation tasks (e.g. News, Biomedical) which have always included language pairs in which texts are translated to and/or from English. 
+With the widespread use of MT technology, there is more and more interest in training systems to translate between languages other than English. One evidence of this is the need of directly translating between pairs of similar languages. The main challenge here is how to take advantage of the similarity between languages to overcome the limitation given the low amount of available parallel data to produce an accurate output.
+
+      <p>Given the interest of the community in this topic we organize, for the third time at WMT, 
+the shared task on "Similar Language Translation" to evaluate the performance of state-of-the-art translation systems on translating between pairs of languages from the same language family. 
+        This year we provide participants with training and testing data in five language pairs from three language families listed below. Evaluation will be carried out using automatic evaluation metrics and human evaluation.
+
+        <p>In the previous two editions of this task in WMT 2019 and 2020, we included language pairs such as  Spanish - Portuguese, Spanish - Catalan, Czech - Polish, Hindi - Nepali, and Hindi - Marathi. 
+        Check the <a href="http://www.statmt.org/wmt19/similar.html">2019 website</a>, the <a href="http://www.statmt.org/wmt20/similar.html">2020 website</a> or the <a href="https://www.aclweb.org/anthology/W19-5301.pdf">WMT 2019 report</a>, <a href="https://www.aclweb.org/anthology/2020.wmt-1.1.pdf">WMT 2020 report</a>.
+
+<H4>Language Pairs</H4>
+
+This year we have multiple pairs of similar languages from three language families.
+          
+          <ul>
+          <li>Dravidian languages: Tamil - Telugu</li>
+          <li>Romance languages: Catalan, Spanish, Portuguese, and Romanian.</li>
+          <li>French to two similar low-resource Manding languages: Bambara and Maninka.</li>
+          </ul>
+      
+<H4>Utilizing parallel data</H4>
+
+No additional parallel data is allowed for training. Constrained submissions only.
+
+<H4>Utilizing monolingual data</H4>
+
+You are encouraged to develop novel solutions to utilize monolingual corpora to improve translation quality.
+
+<H3>DATA</H3>
+
+<p>The training data for Dravidian and Romance languages is available <a href="https://wmt21similar.cs.upc.edu/">here</a>. This link is password protected. 
+  
+<p><b>To participate please register using this <a href="https://forms.gle/CWqZ2a9fwbEyrwAf8">form</a>. The dataset password is displayed when you complete the form.</b>
+  
+<H3>SUBMISSIONS</H3>
+
+<p>The test data is available at the same repository as the training data <a href="https://wmt21similar.cs.upc.edu/">here</a> and it can be accessed using the same password sent via e-mail.
+
+You are allowed to submit 1 PRIMARY and up to 2 CONTRASTIVE systems for each language pair/translation direction.
+     
+<p>You should submit your results by July 19, 2021 (anywhere in the world) in a zip file to wmt.similarlanguagetranslation(at)gmail.com. Your zip file should contain your submission files and a brief description of your approach(es) as follows:
+
+<p>1) A txt file for each of your submissions with one instance per line IN THE SAME ORDER as the test set. Your should name your file(s) as follows: 
+
+<br>TEAMNAME_SOURCELANGUAGECODE_TARGETLANGUAGECODE_PRIMARYORCONTRASTIVE.txt
+
+<p>If, for example, Team X participated in Spanish - Catalan and submits a primary AND a contrastive submission, Team X will be sending us the following files:
+
+<br>TEAMX_ES_CA_PRIMARY.txt
+<br>TEAMX_ES_CA_CONTRASTIVE.txt
+
+<p>2) A single txt file containing one or two paragraph(s) describing your system(s). Please make this as complete as possible, as we will be using this information in the shared task report, but also concise so that it focuses on the most important information about your approach (max. 250 words).   
+       
+<H3>EVALUATION</H3>
+  
+<p>The evaluation was carried out automatically using BLEU (Papieni et al., 2002) and TER (Snover et al., 2006), and RIBES (Isozaki et al., 2010). 
+
+<p>Here you can find the results of the <a href="http://mzampieri.com/workshops/wmt/2021/BM_FR.pdf">Bambara - French</a> and <a href="http://mzampieri.com/workshops/wmt/2021/FR_BM.pdf">French - Bambara</a> tracks ranked by BLEU score. 
+  
+<p>Here you can find the results of the <a href="http://mzampieri.com/workshops/wmt/2021/TA_TE.pdf">Tamil - Telugu</a> and <a href="http://mzampieri.com/workshops/wmt/2021/TE_TA.pdf">Telugu - Tamil</a> tracks ranked by BLEU score. 
+
+<p>Here you can find the results of the <a href="http://mzampieri.com/workshops/wmt/2021/CA_ES.pdf">Catalan - Spanish</a>, 
+  <a href="http://mzampieri.com/workshops/wmt/2021/ES_CA.pdf">Spanish - Catalan</a>,  
+  <a href="http://mzampieri.com/workshops/wmt/2021/ES_PT.pdf">Spanish - Portuguese</a>, and
+  <a href="http://mzampieri.com/workshops/wmt/2021/PT_ES.pdf">Portuguese - Spanish</a> 
+  tracks ranked by BLEU score. 
+
+<H3>Paper Submission</H3>
+ 
+ <p>Your system paper submission should be prepared according to the <a href="http://www.statmt.org/wmt21/index.html">WMT instructions</a> and uploaded to START before August 5, 2021.  
+
+          
+<H3><a name="dates">IMPORTANT DATES</a></H3>
+  
+<TABLE>
+<TR><TD>Release of training/dev data</TD>
+<TD>May 17, 2021</TD></TR>
+<TR><TD>Test data release</TD>
+<TD>July 12, 2021</TD></TR>
+<TR><TD>Submission deadline</TD>
+<TD>July 19, 2021</TD></TR>
+<TR><TD>System description paper deadline</TD>
+<TD>August 5, 2021</TD></TR>
+<TR><TD>Camera-ready</TD>
+<TD>September 15, 2021</TD></TR>
+<TR><TD>Conference</TD>
+<TD>November 10-11, 2021</TD></TR>
+</TABLE>
+
+<H3><a name="organizers">ORGANIZERS</a></H3>
+
+<UL>
+<LI>Farhad Akhbardeh, Rochester Institute of Technology
+<LI> Marta Costa-juss&agrave;, Universitat Polit&egrave;cnica de Catalunya
+<LI> Magdalena Biesialska, Universitat Polit&egrave;cnica de Catalunya
+<LI> Christopher Homan, Rochester Institute of Technology
+<LI> Santanu Pal, Wipro AI Lab
+<LI> Allahsera Tapo, Rochester Institute of Technology
+<LI> Valentin Vydrin, Institut National des Langues et Civilisations Orientales (INALCO)
+<LI> Marcos Zampieri, Rochester Institute of Technology
+</UL>
+
+ <H3><a name="organizers">CONTACT</a></H3>
+  
+martaruizcostajussa(at)gmail.com
+  
+ <H3><a name="organizers">ACKNOWLEDGEMENT</a></H3>
+  
+  We would like to thank <a href="https://pangeanic.com/">Pangeanic</a> for the Spanish, Catalan, Portuguese, and Romanian data and the <a href="https://llengua.gencat.cat/en/el-catala/organismes/organismes-de-politica-lingueistica/">Directorate-General for Language Policy at the Ministry of Culture, Government of Catalonia</a> for the Catalan translations.         
+  
+  <p>We further thank the <a href="https://aij.ijcai.org/funding-opportunities-for-promoting-ai-research/">AI Journal - Funding Opportunities for Promoting AI Research</a> for supporting the French - Maninka data collection. 
+  
+  <p><img src="https://aij.ijcai.org/files/images/ARTINT_Logo2_c_web_more.jpg" width="80">
+     
+  </BODY>
+</HTML>
+
