@@ -5,7 +5,7 @@ document.write('\
         MACHINE TRANSLATION (WMT23) \
       </h2> \
       <h3> \
-        TBA, 2023<br> \
+        December, TBA, 2023<br> \
         Singapore \
       </h3>\
 ');
