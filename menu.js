@@ -1,3 +1,4 @@
+/*
 document.write('\
   [<A HREF="/wmt21/index.html">HOME</A>] \
   [<A HREF="/wmt21/program.html">SCHEDULE</A>] \
@@ -25,7 +26,7 @@ document.write('\
   OTHER TASKS: \
   [<A HREF="/wmt21/ape-task.html">AUTOMATIC POST-EDITING</A>] \
 ');
-
+*/
 /*
 document.write('\
   [<A HREF="/wmt20/index.html">HOME</A>] \
