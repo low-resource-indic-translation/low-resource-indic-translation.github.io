@@ -6,9 +6,6 @@ document.write('\
   [<A HREF="https://wmt-terminology-task.github.io/">TERMINOLOGY</A>] \
   [<A HREF="/wmt23/word-autocompletion.html">WORD-LEVEL AUTOCOMPLETION</A>] \
   <br> \
-  EVALUATION TASKS: \
-  <br> \
-  OTHER TASKS: \
 ');
 
 /*
