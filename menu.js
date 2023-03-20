@@ -1,10 +1,10 @@
 document.write('\
-  [<A HREF="/wmt23/index.html">HOME</A>] \
+  [<A HREF="http://www2.statmt.org/wmt23/index.html">HOME</A>] \
   <br> \
   TRANSLATION TASKS: \
-  [<A HREF="/wmt23/translation-task.html">GENERAL MT (NEWS)</A>] \
+  [<A HREF="http://www2.statmt.org/wmt23/translation-task.html">GENERAL MT (NEWS)</A>] \
   [<A HREF="https://wmt-terminology-task.github.io/">TERMINOLOGY</A>] \
-  [<A HREF="/wmt23/word-autocompletion.html">WORD-LEVEL AUTOCOMPLETION</A>] \
+  [<A HREF="http://www2.statmt.org/wmt23/word-autocompletion.html">WORD-LEVEL AUTOCOMPLETION</A>] \
   <br> \
 ');
 
